@@ -3,12 +3,25 @@
 * Clone the project:
 
 ```bash
-$ git clone https://github.com/versatica/mediasoup-demo.git
+$ git clone https://github.com/decastpro/edumeetrebuild.git
 $ cd mediasoup-demo
 $ git checkout v3
 ```
 
-* Ensure you have installed the [dependencies](https://mediasoup.org/documentation/v3/mediasoup/installation/#requirements) required by mediasoup to build.
+* Ensure you have installed the [dependencies] required by mediasoup to build.
+ 
+*Linux, OSX and any *NIX system
+
+    node version >= v10.0.0
+    python version 2 or 3
+    make
+    gcc and g++ >= 4.9 or clang (with C++11 support)
+    cc and c++ commands (symlinks) pointing to the corresponding gcc/g++ or clang/clang++ executables.
+
+    In Debian and Ubuntu install the build-essential DEB package. It includes both make and gcc/g++.
+    In YUM based Linux (Red Hat, CentOS) use yum groupinstall "Development Tools".
+
+
 
 * Set up the mediasoup-demo server:
 
