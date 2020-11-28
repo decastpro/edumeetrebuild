@@ -106,8 +106,8 @@ $ npm run connect
 
 # Considerations for (config.js)[server/config.example.js]
 
-* Make sure [https.listenIp](server/config.example.js#L20) is set to `0.0.0.0`.
-* Make sure [TLS certificates](server/config.example.js#L24) reside in `server/certs` directory with names `fullchain.pem` and `privkey.pem`.
+* Make sure [https.listenIp](server/config.js#L20) is set to `0.0.0.0`.
+* Make sure [TLS certificates](server/config.js#L24) reside in `server/certs` directory with names `fullchain.pem` and `privkey.pem`.
 * The default mediasoup port range is just 2000-2020, which is not suitable for production. You should increase it, however you should then run the container in `network="host"` mode.
 
 
