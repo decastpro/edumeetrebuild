@@ -10,7 +10,7 @@ $ git checkout v3
 
 * Ensure you have installed the [dependencies] required by mediasoup to build.
  
-*Linux, OSX and any *NIX system
+* Linux, OSX and any *NIX system
 
     node version >= v10.0.0
     python version 2 or 3
@@ -20,10 +20,17 @@ $ git checkout v3
 
     In Debian and Ubuntu install the build-essential DEB package. It includes both make and gcc/g++.
     In YUM based Linux (Red Hat, CentOS) use yum groupinstall "Development Tools".
+    
+*  If there is not python command pointing to Python 2 or 3 executable, set the PYTHON environment variable during mediasoup installation:
+
+$ PYTHON=python3 npm install mediasoup@3 --save
+
+If the MEDIASOUP_MAX_CORES environment variable is set, the build process will use that number of CPU cores. Otherwise it will auto-detect the number of cores in the machine.
+Windows
 
 
 
-* Set up the mediasoup-demo server:
+* Set up the edumeet - rebuild server:
 
 ```bash
 $ cd server
