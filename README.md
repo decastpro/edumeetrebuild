@@ -8,10 +8,13 @@ $ cd edumeetrebuild
 
 ```
 
-* Ensure you have installed the [dependencies] required by mediasoup to build.
+* Ensure you have installed the [dependencies] Listed on Pre Requirements. That's required by Edumeet Video Conference to build.
  
 * Linux, OSX and any *NIX system
 ```bash
+
+Pre Requirements :
+
     node version >= v10.0.0
     python version 2 or 3
     make
