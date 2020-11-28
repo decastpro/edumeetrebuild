@@ -4,8 +4,8 @@
 
 ```bash
 $ git clone https://github.com/decastpro/edumeetrebuild.git
-$ cd mediasoup-demo
-$ git checkout v3
+$ cd edumeetrebuild
+
 ```
 
 * Ensure you have installed the [dependencies] required by mediasoup to build.
