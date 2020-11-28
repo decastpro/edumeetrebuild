@@ -102,6 +102,6 @@ $ DEBUG="*mediasoup* *ERROR* *WARN*" node server.js
 
 ```bash
 $ npm run connect
-......
+
 
 
