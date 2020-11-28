@@ -24,10 +24,10 @@ $ git checkout v3
 *  If there is not python command pointing to Python 2 or 3 executable, set the PYTHON environment variable during mediasoup installation:
 ```bash
 $ PYTHON=python3 npm install mediasoup@3 --save
-
+```
 If the MEDIASOUP_MAX_CORES environment variable is set, the build process will use that number of CPU cores. Otherwise it will auto-detect the number of cores in the machine.
 Windows
-```
+
 
 
 * Set up the edumeet - rebuild server:
